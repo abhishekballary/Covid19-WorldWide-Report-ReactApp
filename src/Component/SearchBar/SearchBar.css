@@ -1,0 +1,35 @@
+.select{
+    width: 50%;
+    padding: 0.5rem 0.5rem;
+    margin-top: 3rem;
+
+}
+.sub{
+    background-color: #a79344;;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    color: white;
+}
+
+.date{
+    float: left;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+
+@media only screen and (max-width:900px){
+
+    .select{
+        width: 90%;
+    }
+    .sub{
+        margin-top: 1rem;
+    }
+    .spinner{
+        width: 200px;
+        height: 200px;
+        margin-top: 1rem;
+    }
+}
