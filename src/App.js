@@ -8,7 +8,8 @@ export default class App extends Component{
 
   state={
      covid19Data:{},
-     byCoutries:{}
+     byCoutries:{},
+     testing:""
   }
 
   componentDidMount(){
